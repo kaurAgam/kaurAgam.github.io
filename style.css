@@ -33,6 +33,7 @@ body{
 a{
     font-size: max(1.5vw,13px);
     text-decoration: none;
+    color:var(--coltxt);
 }
 
 .navbar{  /* | class -> .|| id -> # | */
