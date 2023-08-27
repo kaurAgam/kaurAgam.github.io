@@ -43,7 +43,7 @@ function Delete() {
 		_PART_INDEX = 1;
 		setTimeout(function() {
 			_CURSOR.style.display = 'inline-block';
-			_INTERVAL_VAL = setInterval(Type, 200);
+			_INTERVAL_VAL = setInterval(Type, 150); //200
 		}, 10);
 	}
 
@@ -56,12 +56,12 @@ function Delete() {
 		_PART_INDEX = 1;
 		setTimeout(function() {
 			_CURSOR.style.display = 'inline-block';
-			_INTERVAL_VAL = setInterval(Type, 200);
+			_INTERVAL_VAL = setInterval(Type, 150);//200
 		}, 10);
 	}
 }
 
-_INTERVAL_VAL = setInterval(Type, 150);
+_INTERVAL_VAL = setInterval(Type, 100); //150
 
 
 /*
